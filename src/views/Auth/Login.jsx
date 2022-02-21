@@ -20,7 +20,6 @@ export default function Login() {
     const loginWasSuccessful = auth.login(formState.email, formState.password);
 
     !loginWasSuccessful ? setError('Incorrect login') : history.push(from);
-    console.log('from', loginWasSuccessful);
 
     // TODO: If login was unsuccessful, set an error with a message
     // to display to the user that their login failed.
