@@ -10,7 +10,7 @@ exports[`should allow the user to log in 1`] = `
     class="loginForm"
   >
     <label
-      for="email"
+      aria-label="Email"
     >
       Email
     </label>
@@ -20,9 +20,8 @@ exports[`should allow the user to log in 1`] = `
       type="email"
       value=""
     />
-     
     <label
-      for="password"
+      aria-label="Password"
     >
       Password
     </label>
